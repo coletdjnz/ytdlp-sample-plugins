@@ -8,10 +8,10 @@ from yt_dlp.extractor.common import InfoExtractor
 # 🔗 https://github.com/yt-dlp/yt-dlp/blob/master/CONTRIBUTING.md#adding-support-for-a-new-site
 
 # ⚠ The class name must end in "IE"
-class SampleExternalPluginIE(InfoExtractor):
+class SampleExternalPluginGitHubIE(InfoExtractor):
     _WORKING = False
     IE_DESC = False
-    _VALID_URL = r'^sampleplugin:'
+    _VALID_URL = r'^sampleplugingh:'
 
     def _real_extract(self, url):
         self.to_screen('URL "%s" sucessfully captured' % url)
