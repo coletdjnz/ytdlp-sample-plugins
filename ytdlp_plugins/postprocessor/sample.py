@@ -7,7 +7,7 @@ from yt_dlp.postprocessor.common import PostProcessor
 # ℹ️ See the docstring of yt_dlp.postprocessor.common.PostProcessor
 
 # ⚠ The class name must end in "PP"
-class SampleExternalPluginPP(PostProcessor):
+class SamplePluginPP(PostProcessor):
     def __init__(self, downloader=None, **kwargs):
         # ⚠ Only kwargs can be passed from the CLI, and all argument values will be string
         # Also, "downloader", "when" and "key" are reserved names
