@@ -14,4 +14,4 @@ class SamplePluginIE(InfoExtractor):
     _VALID_URL = r'^sampleplugin:'
 
     def _real_extract(self, url):
-        self.to_screen('URL "%s" sucessfully captured' % url)
+        self.to_screen('URL "%s" successfully captured' % url)
